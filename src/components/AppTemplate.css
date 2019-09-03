@@ -1,0 +1,43 @@
+
+
+div.input-panel {
+  background-color: #DDDDDD;
+  padding: 10px;
+  color: white;
+  margin-bottom: 10px;
+  width: 400px;
+}
+
+div.input-panel input {
+  width: 100%;
+}
+
+div.input-panel textarea {
+  width: 100%;
+  height: 100px;
+  margin-top: 5px;
+}
+
+div.show-panel {
+  max-width: 400px;
+  background-color: #eeeeee;
+  margin-bottom: 10px;
+  border: 1px solid gray;
+}
+
+div.show-panel .subject {
+  min-height:20px;
+  padding: 5px 10px;
+  background-color: gray;
+}
+
+div.show-panel .content{
+  padding: 5px 10px;
+  margin-top: 5px;
+  min-height:20px;
+}
+
+div.show-panel button {
+  float: right;
+}
+
