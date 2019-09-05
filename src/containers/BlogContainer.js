@@ -16,7 +16,6 @@ class BlogContainer extends Component {
   }
 
   static getDerivedStateFromProps(nextProps, prevState) {
-    console.log('container!!!');
     return { subject: nextProps.subject, content: nextProps.content, child_blog_list: nextProps.child_blog_list };
   }
 

@@ -50,8 +50,6 @@ class BlogItem extends Component {
     }
 
     handleChange = (e) => {
-        console.log(this.state);
-        console.log(this.props);
         this.props.onUpdateItem({index: this.state.index, [e.target.name]: e.target.value})
     }
 
